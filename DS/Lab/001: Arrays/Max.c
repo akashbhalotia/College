@@ -24,7 +24,7 @@ void input(int a[], int N) //takes array input
 	}
 }
 
-int nextMax(int a[], int N)
+int nextMax(int a[], int N) //finds the next largest element
 {
 	int i,max=a[0],pos=0;
 	
