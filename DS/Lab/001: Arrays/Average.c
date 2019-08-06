@@ -16,6 +16,7 @@ void input(int a[], int N) //takes array input
 		scanf("%d",&a[i]);
 	}
 }
+
 int add(int a[], int N) //adds elements of array
 {
 	int i,sum=0;
@@ -25,11 +26,13 @@ int add(int a[], int N) //adds elements of array
 		
 	return sum;
 }
+
 float average(int a[], int N) //finds average of array elements
 {
 	int sum=add(a,N);
 	return (float)sum/N;
 }
+
 int main()
 {
 	int i,N;
