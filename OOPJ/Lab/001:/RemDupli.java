@@ -1,9 +1,13 @@
+/*
+    Remove duplicate elements of an array and print the new length.
+ */
+
 // Created by akashbhalotia
 import java.util.Scanner;
 
 class RemDupli
 {
-    private int a[],N,ans;
+    private int a[],N;
 
     public void read() //reads user input
     {
@@ -22,25 +26,27 @@ class RemDupli
     }
     public void solve() //solves the problem
     {
-        int i,j,count=0;
-
+        int i,j,len=0;
+        
+        // Removing duplicates:
         // For every array element, check if it has occurred before in the array.
         for(i=0;i<N;i++)
         {
-            for(j=0;j<i;j++)
+            a[len++]=a[i];
+            for (j = 0; j < len-1; j++)
             {
-                if(a[i]==a[j])
+                if (a[i] == a[j])
                 {
-                    count++;
+                    len--;
                     break;
                 }
             }
         }
-        ans=N-count;
+        N=len;
     }
     public void display() //displays the answer computed
     {
-        System.out.println("Length after removal of duplicates: "+ans);
+        System.out.println("Length after removal of duplicates: "+N);
     }
 }
 class Solver
