@@ -47,8 +47,8 @@ class LCES
         ans=1;
 
         sort();
-        
-        // Either continue a previous sequence if possible (tmp++)
+
+        // Either extend a previous sequence if possible (tmp++)
         // or start a new sequence (tmp=1)
         for(i=1;i<N;i++)
         {
