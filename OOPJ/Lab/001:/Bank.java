@@ -93,6 +93,7 @@ class Solver
 
             Bank customer=new Bank(name,acno,cBal);
 
+            //Menu
             do
             {
                 System.out.println("1) Deposit\n2) Withdraw\n3) Exit\nEnter your choice.");
