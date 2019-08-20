@@ -24,13 +24,17 @@ class Bank
 {
     private String name;
     private int acno,cBal;
-    static int bBal;
+    private static int bBal;
 
     public Bank(String name, int acno, int cBal) //parameterized constructor
     {
         this.name=name;
         this.acno=acno;
         this.cBal=cBal;
+    }
+    public static void setBal(int amt) //sets the value of the static variable
+    {
+        bBal=amt;
     }
     public void deposit(int amt) //deposit an amount
     {
@@ -77,7 +81,7 @@ class Solver
         String name;
 
         System.out.println("Enter the initial amount of money that the bank has");
-        Bank.bBal=Integer.parseInt(br.readLine().trim());
+        Bank.setBal(Integer.parseInt(br.readLine().trim()));
 
         System.out.println("Enter number of customers");
         N=Integer.parseInt(br.readLine().trim());
