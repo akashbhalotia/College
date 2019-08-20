@@ -113,6 +113,7 @@ class Solver
                         break;
                     case 3:
                         System.out.println("Goodbye!");
+                        break;
                     default:
                         System.out.println("Invalid choice");
                 }
