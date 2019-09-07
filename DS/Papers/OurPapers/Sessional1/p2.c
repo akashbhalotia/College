@@ -1,6 +1,14 @@
+/*
+	Write a function to print all row numbers which have all 0s,
+	in an M*N matrix.
+	
+	Only the solve function is sufficient.
+	I have assumed that M and N are global variables.
+*/
+
+
+
 //created by akashbhalotia
-//sufficient to only make the solve function,
-//as per the question
 
 #include<stdio.h>
 
