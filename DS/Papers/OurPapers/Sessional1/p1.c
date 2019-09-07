@@ -1,3 +1,13 @@
+/*
+	Write a program to find the largest in two halves of
+	an array, and then find the largest among them.
+	
+	There should be a function to take array input,
+	another to send a half of the array and find its largest.
+	
+	The array has to be dynamically allocated.
+*/
+
 //created by akashbhalotia
 
 #include<stdio.h>
