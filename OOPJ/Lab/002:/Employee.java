@@ -25,19 +25,19 @@
 import java.io.*;
 class Employee
 {
-    private static int counter=0;
-    private int empNum;
+    private static int counter=0; //to assign empNum
+    private int empNum; //data members
     private double basic,gross,net;
     private String name;
 
-    public Employee(String name, double basic)
+    public Employee(String name, double basic) //parameterized constructor
     {
         empNum=++counter;
         this.name=name;
         this.basic=basic;
         gross=net=0.0;
     }
-    public void calcSalary()
+    public void calcSalary() //calculates gross and net
     {
         double DA,HRA,PF;
         final double CCA=240,PT=100;
@@ -50,7 +50,7 @@ class Employee
         gross=basic+HRA+DA+CCA;
         net=gross-PF-PT;
     }
-    public void display()
+    public void display() //displays employee details
     {
         System.out.println("Name: "+name);
         System.out.println("Employee number: "+empNum);
@@ -60,18 +60,18 @@ class Employee
         System.out.println("Net salary = Rs. "+net);
     }
 }
-class Driver
+class Driver //driver class
 {
     public static void main(String[] args) throws IOException
     {
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("Enter name");
+        System.out.println("Enter name"); //input details
         String name = br.readLine().trim();
         System.out.println("Enter basic salary");
         double basic = Double.parseDouble(br.readLine().trim());
 
-        Employee e1=new Employee(name, basic);
+        Employee e1=new Employee(name, basic); //object creation
         e1.calcSalary();
         e1.display();
     }
