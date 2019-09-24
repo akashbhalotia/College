@@ -35,6 +35,7 @@ class Driver //driver class
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number");
         int N=sc.nextInt();
+        
         Primes obj=new Primes(N);
         obj.printPrimes();
     }
