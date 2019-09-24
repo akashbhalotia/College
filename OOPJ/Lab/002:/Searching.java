@@ -3,6 +3,7 @@
    Assuming array is sorted.
  */
 
+//created by akashbhalotia
 import java.util.Scanner;
 class Search
 {
