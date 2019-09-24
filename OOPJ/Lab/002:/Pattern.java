@@ -9,6 +9,7 @@
     *
  */
 
+//created by akashbhalotia
 class Pattern
 {
     private int N; //data member
