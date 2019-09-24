@@ -1,5 +1,9 @@
+/*
+Print all prime numbers upto N.
+ */
+
 import java.util.*;
-class Primes
+class Pattern
 {
     private int N; //data member
 
@@ -35,7 +39,7 @@ class Driver //driver class
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number");
         int N=sc.nextInt();
-        
+
         Primes obj=new Primes(N);
         obj.printPrimes();
     }
