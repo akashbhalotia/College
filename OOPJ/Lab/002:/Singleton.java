@@ -1,6 +1,6 @@
 /*
     Private constructor. Singleton class.
-    Design your own program where this concept is required.
+    Design your own scenario where this concept is required.
 
     I have made a program, simulating an attendance sheet,
     where the students enter their names.
