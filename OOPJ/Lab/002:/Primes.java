@@ -4,7 +4,7 @@ Print all prime numbers upto N.
 
 //created by akashbhalotia
 import java.util.*;
-class Pattern
+class Primes
 {
     private int N; //data member
 
