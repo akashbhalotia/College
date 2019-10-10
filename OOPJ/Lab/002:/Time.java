@@ -18,7 +18,7 @@ class Time
     {
         seconds=(t1.seconds+t2.seconds)%60;
         minutes=(t1.minutes+t2.minutes+(t1.seconds+t2.seconds)/60)%60;
-        hours=(t1.hours+t2.hours+(t1.minutes+t2.minutes)/60)%60;
+        hours=t1.hours+t2.hours+(t1.minutes+t2.minutes)/60;
     }
     public void display() //displays time in proper format
     {
