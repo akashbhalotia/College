@@ -37,4 +37,6 @@ int main() //O(N), but with limitations.
         if(done[i])
             printf("%d %d\n",i,(70-i));
     }
+    
+    return 0;
 }
