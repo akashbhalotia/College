@@ -1,8 +1,7 @@
 // created by Whiplash99
 
 /*
-    Largest and second largest.
-    Assuming array has atleast 2 elements.
+    Linear Search
  */
 #include<stdio.h>
 void input(int a[], int N)//array input
