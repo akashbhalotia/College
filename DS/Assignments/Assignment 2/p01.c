@@ -12,7 +12,7 @@
 int main() //O(N), but with limitations.
 {
     int exists[75]={0},done[75]={0},num;
-    for(int i=0;i<2;i++)
+    for(int i=0;i<10;i++)
     {
         printf("Enter a number\n"); //input
         scanf("%d",&num);
