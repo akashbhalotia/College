@@ -73,10 +73,10 @@ void printArr(int a[], int N) //prints the array.
         printf("%d,",a[i]);
     printf("\n\n");
 }
-int main()
+void run(int type) //to avoid repetitiveness
 {
     int N;
-    printf("Enter size of array 1\n");
+    printf("Enter size of array %d\n",type);
     scanf("%d",&N);
 
     int a[N];
@@ -85,35 +85,21 @@ int main()
     printf("\nArray before sorting:\n");
     printArr(a,N);
 
-    bubbleSort(a,N);
+    if(type==1)
+        bubbleSort(a,N);
+    else if(type==2)
+        selectionSort(a,N);
+    else
+        insertionSort(a,N);
+
     printf("\nArray after sorting:\n");
     printArr(a,N);
-
-    printf("Enter size of array 2\n");
-    scanf("%d",&N);
-
-    int b[N];
-    input(b,N);
-
-    printf("\nArray before sorting:\n");
-    printArr(b,N);
-
-    selectionSort(b,N);
-    printf("\nArray after sorting:\n");
-    printArr(b,N);
-
-    printf("Enter size of array 3\n");
-    scanf("%d",&N);
-
-    int c[N];
-    input(c,N);
-
-    printf("\nArray before sorting:\n");
-    printArr(c,N);
-
-    insertionSort(c,N);
-    printf("\nArray after sorting:\n");
-    printArr(c,N);
+}
+int main()
+{
+    run(1);
+    run(2);
+    run(3);
 
     return 0;
 }
