@@ -37,4 +37,18 @@
     Finalize is used to perform clean up processing just before object is garbage collected.
 ```  
 
-**4) 
+**4) What do you mean by singleton class and factory method. Exaplain with suitable examples.**  
+```
+    A singleton class is a class that can have only one object at a time. This is useful when exactly
+    one object is needed to coordinate actions across the system.
+    
+    A factory method is related to object creation. In Factory pattern, we create object without 
+    exposing the creation logic to client and the client use the same common interface to create 
+    new type of object.
+    The idea is to use a static member-function (static factory method) which creates & returns 
+    instances, hiding the details of class modules from user.
+    
+    Refer to the code below (code-4) for an example.
+```  
+
+**5) 
