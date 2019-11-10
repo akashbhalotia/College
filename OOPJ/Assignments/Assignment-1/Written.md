@@ -56,3 +56,8 @@
 ```
     Refer to the code below (see code-5).
 ```
+
+**6) Write a program for banking system, as specified in the assignment.**  
+```
+    Refer to the code below (see code-6).
+```
