@@ -10,6 +10,6 @@
     Example: In the code below (see code-1 ), we need to specify the IOException in the throws list to
     make the program compile-time error free. This is an example of a checked exception.
     
-    Example: The code below (see code-2) throws ArithmeticException when we run it. The compiler allows it to compile
-    because ArithmeticException is an unchecked exception.
+    Example: The code below (see code-2) throws ArithmeticException when we run it. The compiler allows
+    it to compile because ArithmeticException is an unchecked exception.
 ```
