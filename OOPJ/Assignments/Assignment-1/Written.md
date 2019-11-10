@@ -52,4 +52,7 @@
     Refer to the code below (code-4) for an example.
 ```  
 
-**5) 
+**5) Write a program, as specified in the assignment, creating a custom exception class.**  
+```
+    Refer to the code below (see code-5).
+```
