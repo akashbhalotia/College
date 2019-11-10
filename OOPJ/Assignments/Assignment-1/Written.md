@@ -26,4 +26,15 @@
     inside in the class Sub overrides the method fun2 inside the class Base.
 ```  
 
+**3) What is the difference between final, finally, and finalize?**  
+```
+    Final is used to apply restrictions on class, method and variable. Final class can't be inherited,
+    final method can't be overridden and final variable value can't be changed.  
+    
+    Finally block is used to place important code. It will be executed whether exception is handled 
+    or not.  
+    
+    Finalize is used to perform clean up processing just before object is garbage collected.
+```  
 
+**4) 
