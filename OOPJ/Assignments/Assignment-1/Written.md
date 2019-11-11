@@ -83,6 +83,10 @@
     can just extend it but not implement it.
 ```
 
+**7) a) Can we inherit a class into another interface?**  
+```
+    No, we cannot inherit a class into an interface.
+```
 **9) Program involving packages, interfaces, inheritance and exceptions.**
 ```
     Refer to the code below (see code-8).
