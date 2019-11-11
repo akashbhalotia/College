@@ -67,6 +67,13 @@
     Refer to the code below (see code-8).
 ```
 
+**12) Explain all uses of super keyword in java**
+```
+    - super can be used to refer immediate parent class instance variable.
+    - super can be used to invoke immediate parent class method.
+    - super() can be used to invoke immediate parent class constructor.
+```
+
 **14) Program involving default method in an interface**
 ```
     Before Java 8, interfaces could have only abstract methods. The implementation
