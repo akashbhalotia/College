@@ -18,10 +18,10 @@
 **2) What is the difference between method overloading and overriding? Explain with suitable example.**  
 ```
     Method overloading occurs when two of more methods in a class have the same name, but different 
-    number or different types of parameters. It is an example of compile-time polymorphism.
+    number or different types of parameters. 
     
     Method overriding is when a method of the subclass provides a specific implementation of a 
-    method of the superclass. It is an example of run-time polymorphism.
+    method of the superclass. 
     
     Example: In the code below (see code-3),the method fun1 is overloaded, while the method fun2
     inside in the class Sub overrides the method fun2 inside the class Base.
