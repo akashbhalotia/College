@@ -44,7 +44,7 @@
     one object is needed to coordinate actions across the system.
     
     A factory method is related to object creation. In Factory pattern, we create object without 
-    exposing the creation logic to client and the client use the same common interface to create 
+    exposing the creation logic to client and the client uses the same common interface to create a
     new type of object.
     The idea is to use a static member-function (static factory method) which creates & returns 
     instances, hiding the details of class modules from user.
