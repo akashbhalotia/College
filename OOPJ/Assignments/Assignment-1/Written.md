@@ -67,7 +67,7 @@
     Refer to the code below (see code-8).
 ```
 
-**12) Explain all uses of super keyword in java**
+**11) Explain all uses of super keyword in java**
 ```
     - super can be used to refer immediate parent class instance variable.
     - super can be used to invoke immediate parent class method.
