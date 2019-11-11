@@ -62,6 +62,20 @@
     Refer to the code below (see code-6).
 ```
 
+**7) a) Abstract class vs interface.  
+```
+    Interfaces are implicitly abstract and cannot have implementations, while abstract class 
+    can have instance methods that implements a default behavior.
+    
+    Variables declared in a Java interface is by default final. An  abstract class may contain
+    non-final variables.
+    
+    Members of a Java interface are public by default. A Java abstract class can have the usual 
+    flavors of class members like private, protected, etc..
+    
+    A Java class can implement multiple interfaces but it can extend only one abstract class.
+```
+
 **9) Program involving packages, interfaces, inheritance and exceptions.**
 ```
     Refer to the code below (see code-8).
