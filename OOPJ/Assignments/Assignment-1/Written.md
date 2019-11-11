@@ -75,9 +75,12 @@
     
     A Java class can implement multiple interfaces but it can extend only one abstract class.
 ```
-    **b) Can we implement one interface into another?  c) Can we extend one interface into another?**
+
+**7) b) Can we implement one interface into another?  c) Can we extend one interface into another?**
 ```
-    
+    Interface extends another interface but not implements it, because interface will not 
+    contain the implementation (you cannot provide implementation in the interface). So you
+    can just extend it but not implement it.
 ```
 
 **9) Program involving packages, interfaces, inheritance and exceptions.**
