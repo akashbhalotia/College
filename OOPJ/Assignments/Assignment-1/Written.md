@@ -76,5 +76,5 @@
     introduced the concept of default methods which allow the interfaces to have methods
     with implementation without affecting the classes that implement the interface.
     
-    Refer to the code below (see code-10).
+    Refer to the code below (see code-11).
 ```
