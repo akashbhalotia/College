@@ -140,7 +140,7 @@ class Driver //driver class
     {
         //2 students
         Student_basic Morty=new Academic("Morty","Jerry", "Citadel",100,420,100,91,90);
-        Student_basic Beth=new Sports("Beth","Rick","Citadel",99,69,1.8,70,"Chess");
+        Student_basic Beth=new Sports("Beth","Rick","Citadel",99,69,1.8,70,");
 
         try //these lines of code may throw an exception
         {
