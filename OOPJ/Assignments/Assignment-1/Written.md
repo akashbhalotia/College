@@ -83,7 +83,7 @@
     can just extend it but not implement it.
 ```
 
-**7) a) Can we inherit a class into another interface?**  
+**7) d) Can we inherit a class into another interface?**  
 ```
     No, we cannot inherit a class into an interface.
 ```
