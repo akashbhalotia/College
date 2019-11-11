@@ -98,6 +98,20 @@
     Refer to the code below (see code-8).
 ```
 
+**10) What is the diamond problem? Provide a solution for it.**
+```
+    The "diamond problem" is an ambiguity that arises when two classes B and C inherit from A,
+    and class D inherits from both B and C. If there is a method in A that B and C have overridden,
+    and D does not override it, then which version of the method does D inherit: that of B, or
+    that of C?
+    
+    To deal with the diamond problem, Java doesn't support multiple inheritance of classes. Java 8
+    supports default methods where interfaces can provide default implementation of methods. And a
+    class can implement two or more interfaces. In case both the implemented interfaces contain
+    default methods with same method signature, the implementing class should explicitly specify
+    which default method is to be used or it should override the default method.
+```
+
 **11) Explain all uses of super keyword in java**
 ```
     - super can be used to refer immediate parent class instance variable.
