@@ -87,6 +87,12 @@
 ```
     No, we cannot inherit a class into an interface.
 ```
+
+**8) Program involving packages all uses of static keyword.**
+```
+    Refer to the code below (see code-7).
+```
+    
 **9) Program involving packages, interfaces, inheritance and exceptions.**
 ```
     Refer to the code below (see code-8).
