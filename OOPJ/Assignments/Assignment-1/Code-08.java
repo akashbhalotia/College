@@ -100,7 +100,7 @@ class Sports extends Student_basic implements Info
     }
     public void Calculate_performance()
     {
-        System.out.println("Neither height, nor weight is correlated with Chess");
+        System.out.println("Neither height, nor weight is correlated with Chess :p");
     }
     public void show_basic() throws InvalidRollException
     {
