@@ -62,7 +62,7 @@
     Refer to the code below (see code-6).
 ```
 
-**7) a) Abstract class vs interface.  
+**7) a) Abstract class vs interface.**  
 ```
     Interfaces are implicitly abstract and cannot have implementations, while abstract class 
     can have instance methods that implements a default behavior.
