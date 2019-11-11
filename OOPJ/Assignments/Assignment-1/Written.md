@@ -78,8 +78,8 @@
 
 **7) b) Can we implement one interface into another?  c) Can we extend one interface into another?**
 ```
-    Interface extends another interface but not implements it, because interface will not 
-    contain the implementation (you cannot provide implementation in the interface). So you
+    An interface can extend another interface but cannot implement it, because the interface will not 
+    contain the implementation (we cannot provide implementation in the interface). So we
     can just extend it but not implement it.
 ```
 
