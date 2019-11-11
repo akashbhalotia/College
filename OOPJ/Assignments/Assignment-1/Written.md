@@ -61,3 +61,8 @@
 ```
     Refer to the code below (see code-6).
 ```
+
+**9) Program involving packages, interfaces, inheritance and exceptions.**
+```
+    Refer to the code below (see code-8).
+```
