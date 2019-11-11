@@ -1,9 +1,9 @@
 package First;
 
-public class InvalidRollException extends Exception
+public class InvalidRollException extends Exception //custom exception
 {
     public InvalidRollException(){}
-    public String toString()
+    public String toString() //will print this message when needed
     {
         return "Invalid roll number!";
     }
@@ -12,9 +12,9 @@ public class InvalidRollException extends Exception
 //////////////////////////////////////////////////////////////////////////////
 package First;
 
-public interface Info
+public interface Info //interface
 {
-    String college_name="MUJ";
+    String college_name="MUJ"; //final by default
     void Calculate_performance();
 }
 
@@ -77,6 +77,7 @@ class Academic extends Student_basic implements Info
     }
     public void show_basic() throws InvalidRollException
     {
+        System.out.println("College: "+college_name);
         super.show_basic();
         System.out.println("Marks 1: "+m1);
         System.out.println("Marks 2:"+m2);
@@ -85,7 +86,7 @@ class Academic extends Student_basic implements Info
         System.out.println();
     }
 }
-class Sports extends Student_basic
+class Sports extends Student_basic implements Info
 {
     private double height, weight;
     private String game;
@@ -97,12 +98,18 @@ class Sports extends Student_basic
         weight=w;
         game=g;
     }
+    public void Calculate_performance()
+    {
+        System.out.println("Neither height, nor weight is correlated with Chess");
+    }
     public void show_basic() throws InvalidRollException
     {
+        System.out.println("College: "+college_name);
         super.show_basic();
         System.out.println("Height: "+height);
         System.out.println("Weight: "+weight);
         System.out.println("Game: "+game);
+        Calculate_performance();
         System.out.println();
     }
 }
