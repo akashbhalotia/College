@@ -88,7 +88,7 @@
     No, we cannot inherit a class into an interface.
 ```
 
-**8) Program involving packages all uses of static keyword.**
+**8) Program involving all uses of static keyword.**
 ```
     Refer to the code below (see code-7).
 ```
