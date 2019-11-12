@@ -119,6 +119,11 @@
     - super() can be used to invoke immediate parent class constructor.
 ```
 
+**12) Program involving try, catch, throw, throws, finally.**
+```
+    Refer to the code below (see code-9).
+```
+
 **13) Explain nested/inner classes with a suitable example.**  
 ```
     When we define a class within another class, such classes are called nested classes.
