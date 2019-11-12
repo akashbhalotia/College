@@ -119,6 +119,13 @@
     - super() can be used to invoke immediate parent class constructor.
 ```
 
+**13) Explain nested/inner classes with a suitable example.**  
+```
+    When we define a class within another class, such classes are called nested classes.
+    
+    Refer for the code below (see code-10) for an example.
+```
+
 **14) Program involving default method in an interface**
 ```
     Before Java 8, interfaces could have only abstract methods. The implementation
