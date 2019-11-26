@@ -29,7 +29,7 @@ class Sorting
 
         for(int i=0;i<N;i++)
         {
-            for(int j=i;j<N-i-1;j++)
+            for(int j=0;j<N-i-1;j++)
             {
                 if(a[j]>a[j+1])
                 {
