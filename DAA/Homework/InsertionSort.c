@@ -26,10 +26,10 @@ void sort(int a[], int N) //sorts the array
 {
     for(int i=0;i<N;i++)
     {
-        int j=i;
-        while (j>0&&a[j]<a[j-1])
+        int j=i-1;
+        while (j>=0&&a[j]>a[j+1])
         {
-            swap(&a[j],&a[j-1]);
+            swap(&a[j],&a[j+1]);
             j--;
         }
     }
