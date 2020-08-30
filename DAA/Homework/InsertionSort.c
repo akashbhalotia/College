@@ -1,6 +1,6 @@
 /*
 	Insertion Sort.
-	Worst case: O(N^2)
+	Worst case: O(N^2), example: when the array is sorted in the opposite order.
 	Best Case: O(N), when the array is sorted in desired order.
 */
 
