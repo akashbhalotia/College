@@ -8,7 +8,7 @@ def fibo(N):
 
     a, b, c = 0, 1, 0
 
-    for i in range(N - 2):
+    for i in range(3, N+1):
         c = a + b
         a, b = b, c
 
