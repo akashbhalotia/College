@@ -4,7 +4,7 @@
 # Refer to: https://www.geeksforgeeks.org/kth-non-repeating-character-python-using-list-comprehension-ordereddict/
 # Instead of iteritems, use items, as iteritems was removed in python3
 
-# OrderedDict orders the items according to position of it's first
+# OrderedDict orders the items according to position of its first
 # occurrence in the input list.
 
 from collections import OrderedDict
