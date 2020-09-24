@@ -1,4 +1,6 @@
 # WAP to print duplicates from a list of integers
+# {} declares an empty dictionary, not set
+# To declare an empty set, use set()
 
 def findDuplicates(list1):
     store = set()
