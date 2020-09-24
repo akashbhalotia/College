@@ -15,3 +15,10 @@ print('Input List:', inputList)
 
 sortTuples(inputList)
 print('\nSorted:', inputList)
+
+
+###########################################################################
+# Another way to do it:
+
+def sortTuples(list1):
+    list1.sort(key=lambda x: x[1])
